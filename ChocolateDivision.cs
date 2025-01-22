@@ -16,8 +16,8 @@ class ChocolateDivision
         int remainingChocolates = numberOfChocolates % numberOfChildren;
 
         // Displaying the results
-        Console.WriteLine("\nThe results of chocolate distribution:");
-        Console.WriteLine($"Each child gets {chocolatesPerChild} chocolates.");
-        Console.WriteLine($"The remaining chocolates are {remainingChocolates}.");
+        Console.WriteLine("\nThe number of chocolated each child gets is:");
+        Console.WriteLine($"{chocolatesPerChild}");
+        Console.WriteLine($"and the number of remaining chocolates is {remainingChocolates}.");
     }
 }
