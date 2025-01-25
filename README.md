@@ -9,3 +9,5 @@
 23Jan - Control Flow Practice problems Level 1, 2, 3 completed successfully.
 
 24Jan - Array Level 1 completed.
+
+25Jan - Array Level 2 completed.
