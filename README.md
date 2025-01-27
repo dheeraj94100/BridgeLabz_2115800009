@@ -11,3 +11,5 @@
 24Jan - Array Level 1 completed.
 
 25Jan - Array Level 2 completed.
+
+27Jan - Method Practice Level 1, 2, 3 completed.
