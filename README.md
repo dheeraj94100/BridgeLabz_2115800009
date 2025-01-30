@@ -15,3 +15,5 @@
 27Jan - Method Practice Level 1, 2, 3 completed.
 
 28Jan - String Manipulation Done.
+
+30Jan - String In-Built Functions Done.
