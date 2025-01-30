@@ -12,11 +12,11 @@ class CountVowelsConsonants
 
         foreach (char c in input.ToLower())
         {
-            if ("aeiou".IndexOf(c) >= 0)
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
             {
                 vowelCount++;
             }
-            else if (char.IsLetter(c))
+            else
             {
                 consonantCount++;
             }

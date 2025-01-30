@@ -13,10 +13,6 @@ class LongestWordFinder
 
     static string FindLongestWord(string sentence)
     {
-        if (string.IsNullOrEmpty(sentence))
-        {
-            return string.Empty;
-        }
         string[] words = sentence.Split(' ');
         string longestWord = string.Empty;
 

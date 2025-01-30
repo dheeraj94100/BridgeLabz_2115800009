@@ -19,6 +19,14 @@ class SpecificCharacter
     static string RemoveCharacter(string str, char charToRemove)
     {
         // Replaces all occurrences of the specified character with an empty string.
-        return str.Replace(charToRemove.ToString(), "");
+        string temp = "";
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (str[i] != charToRemove)
+            {
+                temp += str[i];
+            }
+        }
+        return temp;
     }
 }
