@@ -19,3 +19,5 @@
 30Jan - String In-Built Functions Done.
 
 31Jan - Oops concept learned & understand.
+
+02Feb - Submission of C# Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice
