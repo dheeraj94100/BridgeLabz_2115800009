@@ -23,3 +23,6 @@
 02Feb - Submission of C# Constructors, Instance vs. Class Variables, Access Modifiers Level 1 Lab Practice
 
 03Feb - Submission of this, sealed, static key words and is operator Content Level 1 Lab Practice 
+
+04Feb - Deep dive into constructor and study the use cases of static and private constructor.
+
