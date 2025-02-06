@@ -27,3 +27,5 @@
 04Feb - Deep dive into constructor and study the use cases of static and private constructor.
 
 05Feb - Object Relationship and communication completed.
+
+06Feb - Submission of Class, Object and Sequenece Diagram.
