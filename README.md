@@ -29,3 +29,5 @@
 05Feb - Object Relationship and communication completed.
 
 06Feb - Submission of Class, Object and Sequenece Diagram.
+
+07Feb - Understand inheritance and perform Method overriding on some problems.
