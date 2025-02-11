@@ -35,3 +35,5 @@
 08Feb - Problem on inheritance and its types.
 
 10Feb - Submission of Encapsulation, Polymorphism, Interface, and Abstract class.
+
+11Feb - 6 Problems on Linked List Done successfully.
