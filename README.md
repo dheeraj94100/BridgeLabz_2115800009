@@ -39,3 +39,5 @@
 11Feb - 9 Problems on Linked List Done successfully.
 
 12Feb - Queue Using Stacks Problem Solved.
+
+13Feb - Problems on Stack, Queue, HashMap solved.
