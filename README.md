@@ -41,3 +41,5 @@
 12Feb - Queue Using Stacks Problem Solved.
 
 13Feb - Problems on Stack, Queue, HashMap solved.
+
+14Feb - Problems on Quick, Selection, Bubble, Merge, Heap, Insertion, Counting sort.
