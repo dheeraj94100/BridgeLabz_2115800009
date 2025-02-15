@@ -43,3 +43,5 @@
 13Feb - Problems on Stack, Queue, HashMap solved.
 
 14Feb - Problems on Quick, Selection, Bubble, Merge, Heap, Insertion, Counting sort.
+
+15Feb - Problems solved on Searching and String Builder.
