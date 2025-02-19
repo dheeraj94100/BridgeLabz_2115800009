@@ -49,3 +49,5 @@
 17Feb - Submission of Algorithm's Runtime Analysis & Big-O Notation.
 
 18Feb - Submission of Generics Assignment.
+
+19Feb - Submission of Collection Assignment.
