@@ -51,3 +51,5 @@
 18Feb - Submission of Generics Assignment.
 
 19Feb - Submission of Collection Assignment.
+
+20Feb - Submission of Streams Assignment.
