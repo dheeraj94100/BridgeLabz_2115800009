@@ -63,3 +63,5 @@
 25Feb - Submission of CSV Data Handling Assignment.
 
 26Feb - Submission of JSON Assignment.
+
+28Feb - Submission of Live Class Project And UserRegistration Project using WEBAPI and class Library.
