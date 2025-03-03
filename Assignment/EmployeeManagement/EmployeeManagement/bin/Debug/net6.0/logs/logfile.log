@@ -1,0 +1,43 @@
+2025-03-01 21:36:28.1155 | Info | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7192 | 
+2025-03-01 21:36:28.1604 | Info | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5120 | 
+2025-03-01 21:36:28.2023 | Info | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. | 
+2025-03-01 21:36:28.2023 | Info | Microsoft.Hosting.Lifetime | Hosting environment: Development | 
+2025-03-01 21:36:28.2023 | Info | Microsoft.Hosting.Lifetime | Content root path: D:\Dotnet Framework\Assignment34\EmployeeManagement\EmployeeManagement\ | 
+2025-03-01 21:36:28.8506 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/Swagger/index.html - - | 
+2025-03-01 21:36:29.8608 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/Swagger/index.html - - - 200 - text/html;charset=utf-8 1013.4404ms | 
+2025-03-01 21:36:29.8865 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/Swagger/index.js - - | 
+2025-03-01 21:36:29.8865 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - - | 
+2025-03-01 21:36:29.8865 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/Swagger/index.js - - - 200 - application/javascript;charset=utf-8 3.0654ms | 
+2025-03-01 21:36:29.8946 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 8.0866ms | 
+2025-03-01 21:36:29.9246 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/_vs/browserLink - - | 
+2025-03-01 21:36:29.9981 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.5808ms | 
+2025-03-01 21:36:30.4915 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/Swagger/v1/swagger.json - - | 
+2025-03-01 21:36:30.4915 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/Swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.8261ms | 
+2025-03-01 21:36:42.1039 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7192/EmployeeManagement - - | 
+2025-03-01 21:36:42.1039 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'EmployeeManagement.Controllers.EmployeeManagementController.Get (EmployeeManagement)' | 
+2025-03-01 21:36:42.1221 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "Get", controller = "EmployeeManagement"}. Executing controller action with signature System.String Get() on controller EmployeeManagement.Controllers.EmployeeManagementController (EmployeeManagement). | 
+2025-03-01 21:36:42.3893 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing ObjectResult, writing value of type 'System.String'. | 
+2025-03-01 21:36:42.3942 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action EmployeeManagement.Controllers.EmployeeManagementController.Get (EmployeeManagement) in 267.9605ms | 
+2025-03-01 21:36:42.3942 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'EmployeeManagement.Controllers.EmployeeManagementController.Get (EmployeeManagement)' | 
+2025-03-01 21:36:42.3942 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7192/EmployeeManagement - - - 200 - text/plain;+charset=utf-8 295.1316ms | 
+2025-03-01 21:37:26.6668 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 POST https://localhost:7192/EmployeeManagement application/json 53 | 
+2025-03-01 21:37:26.6921 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'EmployeeManagement.Controllers.EmployeeManagementController.AddEmployee (EmployeeManagement)' | 
+2025-03-01 21:37:26.7162 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "AddEmployee", controller = "EmployeeManagement"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEmployee(CommonLayer.Employee) on controller EmployeeManagement.Controllers.EmployeeManagementController (EmployeeManagement). | 
+2025-03-01 21:37:26.8011 | Info | EmployeeManagement.Controllers.EmployeeManagementController | Received request to add employee: "Krishna" | 
+2025-03-01 21:37:26.8011 | Info | BusinessLayer.Service.EmployeeBL | Processing employee addition: "Krishna" | 
+2025-03-01 21:37:26.8011 | Info | RepositoryLayer.Service.EmployeeService | Adding a new employee: "Krishna" | 
+2025-03-01 21:37:27.4540 | Info | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 6.0.36 initialized 'EmployeeContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.36' with options: None | 
+2025-03-01 21:37:28.3413 | Info | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (156ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Name], [Password])
+VALUES (@p0, @p1);
+SELECT [ID]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [ID] = scope_identity(); | 
+2025-03-01 21:37:28.4143 | Info | RepositoryLayer.Service.EmployeeService | Employee added successfully: "Krishna" | 
+2025-03-01 21:37:28.4143 | Info | BusinessLayer.Service.EmployeeBL | Employee addition successful: "Krishna" | 
+2025-03-01 21:37:28.4143 | Info | EmployeeManagement.Controllers.EmployeeManagementController | Employee added successfully: "Krishna" | 
+2025-03-01 21:37:28.4143 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'System.String'. | 
+2025-03-01 21:37:28.4143 | Info | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action EmployeeManagement.Controllers.EmployeeManagementController.AddEmployee (EmployeeManagement) in 1700.1762ms | 
+2025-03-01 21:37:28.4143 | Info | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'EmployeeManagement.Controllers.EmployeeManagementController.AddEmployee (EmployeeManagement)' | 
+2025-03-01 21:37:28.4143 | Info | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 POST https://localhost:7192/EmployeeManagement application/json 53 - 200 - text/plain;+charset=utf-8 1756.5257ms | 
