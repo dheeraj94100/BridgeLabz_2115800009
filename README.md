@@ -69,3 +69,5 @@
 01Mar - UserRegistration WebApi Checked using PostMan with 4 input fields and studies about layers i.e model , Business , Repository && submitted Assignment
 
 03Mar - Submission of Swagger and Nlog.
+
+06Mar - Redis Implemented.
